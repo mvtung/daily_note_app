@@ -1,0 +1,51 @@
+.welcome-page {
+  background-image: url("../../assets/images/welcome-page/background_welcome_page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  max-width: 1000px;
+  height: 100vh;
+  font-size: 5vw;
+  margin: 0 auto;
+  padding: 5px;
+  color: #102a6a;
+
+  &__date-time {
+    padding-top: 30px;
+    color: rgb(8, 8, 80);
+  }
+
+  &__greeting {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    p {
+      position: absolute;
+      top: 30px;
+    }
+  }
+
+  &__footer {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+
+    img {
+      width: 100%;
+      padding-right: 10px;
+    }
+
+    p {
+      position: absolute;
+    }
+  }
+}
