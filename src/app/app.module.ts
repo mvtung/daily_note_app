@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomePageModule } from './welcome-page/welcome-page.module';
+import { CalendarPageModule } from './calendar-page/calendar-page.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { WelcomePageModule } from './welcome-page/welcome-page.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    WelcomePageModule
+    WelcomePageModule,
+    CalendarPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

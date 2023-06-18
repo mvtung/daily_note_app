@@ -1,0 +1,12 @@
+.calendar-page {
+  max-width: 1000px;
+  height: 100vh;
+  background-image: url('../../assets/images/calendar-page/background-calendar-page.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__banner {
+    img {
+      width: 100%;
+    }
+  }
+}
